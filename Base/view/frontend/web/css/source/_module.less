@@ -1,0 +1,127 @@
+/**
+ * MAGEPLUS
+ *
+ *
+ * @category    MagePlus
+ * @package     MagePlus_ITCSS
+ * @copyright   Copyright (c) MagePlus
+ *
+ *
+ */
+
+//
+//  Inverted Triangle CSS
+//
+//  _____________________________________________
+
+& when (@media-common = true) {
+  .link-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .g-flex {
+    display: flex;
+    flex-flow: row wrap;
+
+    &.row-col-1 {
+      .flex-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .g-flex {
+      &.row-col-3,
+      &.row-col-4,
+      &.row-col-5,
+      &.row-col-6,
+      &.row-col-7,
+      &.row-col-8 {
+        .flex-item {
+          flex: 1 1 100%/2;
+          max-width: 100%/2;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .g-flex {
+      &.row-col-2,
+      &.row-col-3,
+      &.row-col-4,
+      &.row-col-5,
+      &.row-col-6,
+      &.row-col-7,
+      &.row-col-8 {
+        .flex-item {
+          flex: 1 1 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 481px) {
+    .g-flex {
+      &.row-col-2 {
+        .flex-item {
+          flex: 1 1 100%/2;
+          max-width: 100%/2;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1201px) {
+    .g-flex {
+      &.row-col-3 {
+        .flex-item {
+          flex: 1 1 100%/3;
+          max-width: 100%/3;
+        }
+      }
+
+      &.row-col-4 {
+        .flex-item {
+          flex: 1 1 100%/4;
+          max-width: 100%/4;
+        }
+      }
+
+      &.row-col-5 {
+        .flex-item {
+          flex: 1 1 100%/5;
+          max-width: 100%/5;
+        }
+      }
+
+      &.row-col-6 {
+        .flex-item {
+          flex: 1 1 100%/6;
+          max-width: 100%/6;
+        }
+      }
+
+      &.row-col-7 {
+        .flex-item {
+          flex: 1 1 100%/7;
+          max-width: 100%/7;
+        }
+      }
+
+      &.row-col-8 {
+        .flex-item {
+          flex: 1 1 100%/8;
+          max-width: 100%/8;
+        }
+      }
+    }
+  }
+}

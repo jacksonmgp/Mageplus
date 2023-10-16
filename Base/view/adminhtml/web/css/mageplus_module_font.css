@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'FontMageplus';
+    src:  url('../fonts/mageplus-module.eot?4vgkfp');
+    src:  url('../fonts/mageplus-module.eot?4vgkfp#iefix') format('embedded-opentype'),
+    url('../fonts/mageplus-module.ttf?4vgkfp') format('truetype'),
+    url('../fonts/mageplus-module.woff?4vgkfp') format('woff'),
+    url('../fonts/mageplus-module.svg?4vgkfp#mageplus-module') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="mdl-"], [class*=" mdl-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'FontMageplus' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mdl-Logo2:before {
+    content: "\e900";
+}
+.mdl-search:before {
+    content: "\f002";
+}
+.mdl-heart:before {
+    content: "\f004";
+}
+.mdl-user:before {
+    content: "\f007";
+}
+.mdl-check:before {
+    content: "\f00c";
+}
+.mdl-times:before {
+    content: "\f00d";
+}
+.mdl-edit:before {
+    content: "\f044";
+}
+.mdl-chevron-left:before {
+    content: "\f053";
+}
+.mdl-chevron-right:before {
+    content: "\f054";
+}
+.mdl-plus-circle:before {
+    content: "\f055";
+}
+.mdl-minus-circle:before {
+    content: "\f056";
+}
+.mdl-times-circle:before {
+    content: "\f057";
+}
+.mdl-check-circle:before {
+    content: "\f058";
+}
+.mdl-plus:before {
+    content: "\f067";
+}
+.mdl-minus:before {
+    content: "\f068";
+}
+.mdl-chevron-up:before {
+    content: "\f077";
+}
+.mdl-chevron-down:before {
+    content: "\f078";
+}
+.mdl-folder:before {
+    content: "\f07b";
+}
+.mdl-folder-open:before {
+    content: "\f07c";
+}
+.mdl-bars:before {
+    content: "\f0c9";
+}
+.mdl-caret-down:before {
+    content: "\f0d7";
+}
+.mdl-caret-up:before {
+    content: "\f0d8";
+}
+.mdl-caret-left:before {
+    content: "\f0d9";
+}
+.mdl-caret-right:before {
+    content: "\f0da";
+}
+.mdl-check-square:before {
+    content: "\f14a";
+}
+.mdl-pen-square:before {
+    content: "\f14b";
+}
+.mdl-long-arrow-down:before {
+    content: "\f175";
+}
+.mdl-long-arrow-up:before {
+    content: "\f176";
+}
+.mdl-long-arrow-left:before {
+    content: "\f177";
+}
+.mdl-long-arrow-right:before {
+    content: "\f178";
+}
+.mdl-toggle-off:before {
+    content: "\f204";
+}
+.mdl-toggle-on:before {
+    content: "\f205";
+}
+
+
